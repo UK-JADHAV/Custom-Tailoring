@@ -1,0 +1,88 @@
+body{
+
+     background-image: url(background1.jpg);
+}
+
+div.wrapper h1{
+    text-align:center;
+    margin :100px auto;
+    font-size:2.4em;
+}
+
+header{
+    display:grid;
+    grid-template-columns:lfr lfr;
+    padding:20px 0;
+
+}
+
+
+
+nav{
+    justify-self:end;
+}
+
+nav li{
+    display: inline-block;
+    margin-left:20px;
+}
+
+nav button{
+    background:none;
+    color:#34f;
+    cursor: pointer;
+    border:500;
+    font-size:large;
+}
+
+.wrapeer{
+    max-width:960px;
+    margin:0 auto;
+}
+
+.site-form{
+    margin-top:60px;
+    border:1px solid #00dba0;
+    padding:20px;
+}
+
+.site-form input, .site-form textarea{
+    display:block;
+    margin:20px 0 0 0;
+    padding: 10px;
+}
+
+a.highlight{
+    border:1px solid #00dba0;
+    padding:10px;
+    border-radius:4px;
+    color:#00dba0;
+}
+
+.helptext, .helptext ul{
+    margin: 0 auto 20px;
+    font-size:0.9em;
+    display:block;
+
+}
+
+.errorlist li{
+    padding:10px;
+    list-style-type:none;
+    border:1px solid #ff5722;
+    color:#ff5722;
+    margin: 10px 0;
+}
+
+.errorlist{
+    padding:0;
+}
+
+.site-form input[type="submit"]{
+    background: #00dba0;
+    border:0;
+    color:#fff;
+    font-size:1.2em;
+    border-radius:4px;
+    margin:10px 0;
+}
